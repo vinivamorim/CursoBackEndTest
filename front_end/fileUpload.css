@@ -1,0 +1,15 @@
+body{
+    margin: unset;
+    display: flex;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

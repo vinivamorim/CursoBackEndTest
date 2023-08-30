@@ -2,6 +2,8 @@ const router = require("express").Router();
 const defaultRouter = "/apiMercado/";
 
 router.use(defaultRouter + "Categorias", require("./categoriasRoute"));
+router.use(defaultRouter + "Produtos", require("./produtosRoute"));
+
 
 router.use("/", (req, res) =>{
     console.log(req.url, req.method, req.ip, req.body);
